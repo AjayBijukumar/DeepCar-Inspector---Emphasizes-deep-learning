@@ -1,0 +1,176 @@
+# DeepCar-Inspector .gitignore
+# Comprehensive ignore rules for ML/DL projects
+
+# ==================== PYTHON ====================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# ==================== JUPYTER ====================
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Jupyter Lab
+.jupyter/lab/workspaces/
+
+# ==================== DEEP LEARNING ====================
+# PyTorch
+*.pth
+*.pt
+*.bin
+*.safetensors
+
+# Checkpoints and model weights
+checkpoints/
+models/
+weights/
+runs/
+experiments/
+
+# Training logs
+logs/
+lightning_logs/
+wandb/
+mlruns/
+
+# Dataset files (large files)
+data/
+datasets/
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# ==================== ENVIRONMENT ====================
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Conda
+.conda/
+conda-env/
+
+# ==================== OS & EDITOR ====================
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sublime Text
+*.sublime-*
+
+# ==================== NOTEBOOK OUTPUTS ====================
+# Remove notebook outputs for cleaner version control
+# Uncomment if you want to exclude notebook outputs
+# *.ipynb
+
+# ==================== GOOGLE COLAB ====================
+.drive/
+drive/
+sample_data/
+
+# ==================== TRAINING SPECIFIC ====================
+# Training outputs
+outputs/
+predictions/
+submissions/
+
+# Cache directories
+.cache/
+.cached/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# ==================== CONFIGURATION ====================
+# Local configuration files
+config/local.yaml
+config/local.json
+
+# ==================== LOGS ====================
+*.log
+logs/
+
+# ==================== DATASET SPECIFIC ====================
+# Large dataset files (add your specific dataset files)
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# ==================== DOCUMENTATION ====================
+# Built documentation
+docs/_build/
+site/
+
+# ==================== TESTING ====================
+# Test data
+test_data/
+validation_data/
